@@ -18,10 +18,15 @@ DATASET_COLS = [
     "wind",
     "visibility",
     "dew_pt_temp",
-    ...,
+    "solar_rad",
+    "rainfall",
+    "snowfall",
+    "seasons",
+    "holiday",
+    "functioning_day",
 ]
 Y_LABEL = "bike_count"
-df = pd.read_csv("datafile.csv")
+df = pd.read_csv(FILENAME)
 
 # If we want to drop columns from the CSV file
 # DROP_COLS = ["Date", "Holiday", "Seasons"]

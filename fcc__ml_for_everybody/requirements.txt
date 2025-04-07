@@ -1,0 +1,3 @@
+# Requirements given we are using anaconda (When we use anaconda, we already
+# have other packages already installed like pandas, etc.)
+tensorflow==2.19.0
